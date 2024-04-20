@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pomodoro Timer Meeting Notes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Pomodoro Timer</h1>
+    <h1 class="jersey-10-regular">Pomodoro Timer</h1>
     <p class="subtitle">Brainstorming Session</p>
     <p class="subtitle">4/10/24</p>
 
@@ -31,12 +35,15 @@
             <li>The UI design of some features may not be intuitive</li>
         </ul>
     <h2>Meeting Files</h2>
-    <img src="./assets/simple_whiteboard.png" alt="whiteboard explanation of pomodoro" />
-    <video width="320" height="240" controls>
-        <source src="./assets/fake_vid.mp4" type="video/mp4">
-    </video>
-    <audio controls>
-        <source src="./assets/audio.m4a" type="audio/x-m4a">
-    </audio>
+    <div id="files">
+        <img src="./assets/simple_whiteboard.png" alt="whiteboard explanation of pomodoro" />
+        <video width="320" height="240" controls>
+            <source src="./assets/fake_vid.mp4" type="video/mp4">
+        </video>
+        <audio controls>
+            <source src="./assets/audio.m4a" type="audio/x-m4a">
+        </audio>
+    </div>
+    <h3 class="hidden">Next People To Fire</h3>
 </body>
 </html>
